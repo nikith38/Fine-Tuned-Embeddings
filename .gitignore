@@ -1,0 +1,192 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+.venv/
+
+# PyTorch Models (Large Files)
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# Data Files
+*.csv
+*.json
+*.parquet
+*.feather
+*.arrow
+sales_conversations_dataset.*
+train_data.json
+val_data.json
+test_data.json
+contrastive_pairs.json
+
+# Generated Images and Visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+model_comparison.png
+confusion_matrices.png
+roc_curves.png
+training_history.png
+embedding_tsne.png
+api_demo.png
+dataset_distribution.png
+precision_recall.png
+error_analysis.png
+performance_dashboard.png
+
+# Logs and Reports
+*.log
+*.out
+sales_finetuning_pipeline.log
+final_project_report.json
+sales_model_evaluation_report.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+.readthedocs.yml
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Tensorboard
+runs/
+logs/
+
+# Hugging Face Cache
+.cache/
+transformers_cache/
+
+# FAISS Index Files
+*.index
+*.faiss
+
+# Large Language Model Files
+*.bin
+*.safetensors
+
+# API Keys and Secrets
+secrets.json
+config.json
+api_keys.txt
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+*.7z 
