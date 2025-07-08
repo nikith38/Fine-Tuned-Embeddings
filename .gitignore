@@ -61,10 +61,14 @@ contrastive_pairs.json
 *.gif
 *.svg
 *.pdf
-model_comparison.png
-confusion_matrices.png
-roc_curves.png
-training_history.png
+
+# Allow key visualization images for README
+!model_comparison.png
+!confusion_matrices.png
+!roc_curves.png
+!training_history.png
+
+# Block other potential images
 embedding_tsne.png
 api_demo.png
 dataset_distribution.png
